@@ -1,4 +1,4 @@
-# From File  Browser to Terminal
+393# From File  Browser to Terminal
 
 This guide shows you all the ways one can use the terminal in place of the file browser. The intention here is not to completely eliminate use of the file browser entirely, but more as an aid in improving shell skills. It's not implied that all shell commands/methods are easier or more convenient than using the file browser either(although in many cases they are). This is merely a reference for the sake of practice.
 
@@ -18,7 +18,7 @@ If you have stumbled across this guide, I hope you find it useful yourself. Poss
 
 ***\**** - Asterisk means: watch out this command can be tricky and/or possibly destructive. See More Info.
 
-## Basic file management
+## Viewing and working with files/directories - General
 
 | Task | In File Browser | In Terminal | More Info |
 | ------- | -------- | ------- | ------- |
@@ -26,6 +26,7 @@ If you have stumbled across this guide, I hope you find it useful yourself. Poss
 | Create new directory(ies) | Right-click and select New Directory(depending on file browser) | `mkdir directorytocreate1 directorytocreate2` | Link |
 | View file type | File browser may have graphical indications of file type, or right-click and choose "Properties" | `file filename.txt` | Link |
 | Move file(s) to another directory* | Open two windows/tabs of file browser, select file(s), click and drag from one location to the other | `mv filetomove1.txt filetomove2.txt destinationdirectory` | [Link](http://www.rapidtables.com/code/linux/mv.htm) |
+| Open the file with the default program(image, media file) | Double-click on file | `xdg-open <filename>` | Link goes here |
 
 ## Compressing, unzipping files/directories
 
